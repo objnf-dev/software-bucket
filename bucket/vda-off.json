@@ -1,0 +1,10 @@
+{
+    "version": "2026.11.26",
+    "description": "Disable GameViewer, MuMu, and Oray virtual display adapters",
+    "homepage": "https://github.com/objnf-dev/software-bucket",
+    "license": "Unlicense",
+    "notes": "Requires administrator privileges. The script automatically prompts for UAC elevation.",
+    "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket/master/scripts/vda-off.ps1",
+    "hash": "d05563c37ca58e6bb72488417ba48a3180a9376c0f589f761928b1ca4bd13790",
+    "bin": "vda-off.ps1"
+}
