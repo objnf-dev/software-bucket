@@ -1,0 +1,44 @@
+{
+    "version": "1.1.2.1",
+    "description": "A free, open-source alternative Microsoft Store client for Windows",
+    "homepage": "https://github.com/mjishnu/Raven",
+    "license": "Apache-2.0",
+    "notes": [
+        "This is the self-contained build, no Windows App SDK runtime required.",
+        "If you encounter a false antivirus positive, download raven_cert.zip from the releases page and install raven.cer."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mjishnu/Raven/releases/download/v1.1.2.1/Raven-v1.1.2.1-win-x64-self-contained.zip",
+            "hash": "56a57095d71000f95315a7641e484d344f2c91afab08f4b4e9e1872a1c699767"
+        },
+        "32bit": {
+            "url": "https://github.com/mjishnu/Raven/releases/download/v1.1.2.1/Raven-v1.1.2.1-win-x86-self-contained.zip",
+            "hash": "e7a9d6428d88acff33c8897081f2a7ef7b55d807e6de4f12c1580cbcf13010b9"
+        },
+        "arm64": {
+            "url": "https://github.com/mjishnu/Raven/releases/download/v1.1.2.1/Raven-v1.1.2.1-win-arm64-self-contained.zip",
+            "hash": "1a1cfb8a81653e000878cca4cb9107e1bfed4a5b611bf933c91082136642ac53"
+        }
+    },
+    "shortcuts": [
+        [
+            "Raven.exe",
+            "Raven"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mjishnu/Raven/releases/download/v$version/Raven-v$version-win-x64-self-contained.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mjishnu/Raven/releases/download/v$version/Raven-v$version-win-x86-self-contained.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/mjishnu/Raven/releases/download/v$version/Raven-v$version-win-arm64-self-contained.zip"
+            }
+        }
+    }
+}
