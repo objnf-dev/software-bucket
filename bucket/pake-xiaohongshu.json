@@ -1,0 +1,26 @@
+{
+    "version": "3.21.0",
+    "description": "A lightweight XiaoHongShu desktop client built with Pake",
+    "homepage": "https://github.com/tw93/Pake",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tw93/Pake/releases/download/V3.21.0/XiaoHongShu_x64.msi",
+            "hash": "0322a3afaf1957cdcd33efb520d6c48ba663fb0361e923ebe9536e657c8c83e7"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\XiaoHongShu\\pake-xiaohongshu.exe",
+            "XiaoHongShu (Pake)"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tw93/Pake/releases/download/V$version/XiaoHongShu_x64.msi"
+            }
+        }
+    }
+}

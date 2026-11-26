@@ -1,0 +1,26 @@
+{
+    "version": "3.21.0",
+    "description": "A lightweight Excalidraw desktop client built with Pake",
+    "homepage": "https://github.com/tw93/Pake",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tw93/Pake/releases/download/V3.21.0/Excalidraw_x64.msi",
+            "hash": "f9149cd7b62baff7ec512dd24c8191afd1d907ab5e12033976811101312bb006"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\Excalidraw\\pake-excalidraw.exe",
+            "Excalidraw (Pake)"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tw93/Pake/releases/download/V$version/Excalidraw_x64.msi"
+            }
+        }
+    }
+}

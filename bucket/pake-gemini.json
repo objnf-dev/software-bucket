@@ -1,0 +1,26 @@
+{
+    "version": "3.21.0",
+    "description": "A lightweight Gemini desktop client built with Pake",
+    "homepage": "https://github.com/tw93/Pake",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tw93/Pake/releases/download/V3.21.0/Gemini_x64.msi",
+            "hash": "a15a3bbade7f0a810f520f23f68e2282fd0249cca8f872310ffb0b6420cb4470"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\Gemini\\pake-gemini.exe",
+            "Gemini (Pake)"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tw93/Pake/releases/download/V$version/Gemini_x64.msi"
+            }
+        }
+    }
+}
