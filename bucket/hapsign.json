@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0-rc.2",
+    "description": "Auto debug-signing and installation of HarmonyOS HAP packages",
+    "homepage": "https://github.com/guantw/HapSign",
+    "license": "MIT",
+    "notes": "The official binary is not signed by a trusted publisher.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/guantw/HapSign/releases/download/v0.2.0-rc.2/HapSign-GUI-v0.2.0-rc.2-windows-x64.zip",
+            "hash": "54b82ff9dc5f2579fdcf3c89a09d7b05b4f9e0dadfd7de7de5de71c9d24e740d",
+            "extract_dir": "HapSign-GUI"
+        }
+    },
+    "shortcuts": [
+        [
+            "HapSign.exe",
+            "HapSign"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/guantw/HapSign/releases/latest",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([^\"]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/guantw/HapSign/releases/download/v$version/HapSign-GUI-v$version-windows-x64.zip"
+            }
+        }
+    }
+}
