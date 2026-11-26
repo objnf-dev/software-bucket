@@ -6,6 +6,7 @@ A personal bucket for [Scoop](https://scoop.sh), the Windows command-line instal
 
 | Package | Description |
 | --- | --- |
+| [`batteryhub`](https://github.com/ferloom/Wireless-Device-Battery-Monitor) | Show wireless device battery levels on the Windows taskbar. |
 | [`hapsign`](https://github.com/guantw/HapSign) | Auto debug-signing and installation of HarmonyOS HAP packages. |
 | [`pake-excalidraw`](https://github.com/tw93/Pake) | A lightweight Excalidraw desktop client built with Pake. |
 | [`pake-gemini`](https://github.com/tw93/Pake) | A lightweight Gemini desktop client built with Pake. |

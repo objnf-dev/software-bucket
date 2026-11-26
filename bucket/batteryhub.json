@@ -1,0 +1,43 @@
+{
+    "version": "1.7.6",
+    "description": "Show wireless device battery levels on the Windows taskbar",
+    "homepage": "https://github.com/ferloom/Wireless-Device-Battery-Monitor",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "BatteryHub is installed per-user to %LOCALAPPDATA%\\Programs\\BatteryHub\\Taskbar.",
+        "Uninstalling preserves BatteryHub settings and battery history."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ferloom/Wireless-Device-Battery-Monitor/releases/download/v1.7.6/BatteryHub-Taskbar-Setup-v1.7.6.exe",
+            "hash": "920a332973f1a17eeb587e85bebc59001e6506fd0c80801b3045f116642de7be"
+        }
+    },
+    "installer": {
+        "script": [
+            "$setup = Join-Path $dir \"BatteryHub-Taskbar-Setup-v$version.exe\"",
+            "$installedExe = Join-Path $env:LOCALAPPDATA \"Programs\\BatteryHub\\Taskbar\\batteryhub-taskbar.exe\"",
+            "$setupArgs = @('/install', '/S', '/nolaunch', '/nonotify')",
+            "if (-not (Test-Path $installedExe)) { $setupArgs += @('/autostart=no', '/desktop=no') }",
+            "$setupProcess = Start-Process -FilePath $setup -ArgumentList $setupArgs -Wait -PassThru",
+            "if ($setupProcess.ExitCode -ne 0) { throw \"BatteryHub setup failed with exit code $($setupProcess.ExitCode).\" }"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$setup = Join-Path $env:LOCALAPPDATA \"Programs\\BatteryHub\\Taskbar\\BatteryHub-Setup.exe\"",
+            "if (Test-Path $setup) {",
+            "    $setupProcess = Start-Process -FilePath $setup -ArgumentList '/uninstall', '/S' -Wait -PassThru",
+            "    if ($setupProcess.ExitCode -ne 0) { throw \"BatteryHub uninstaller failed with exit code $($setupProcess.ExitCode).\" }",
+            "}"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ferloom/Wireless-Device-Battery-Monitor/releases/download/v$version/BatteryHub-Taskbar-Setup-v$version.exe"
+            }
+        }
+    }
+}
