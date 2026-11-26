@@ -7,6 +7,7 @@ A personal bucket for [Scoop](https://scoop.sh), the Windows command-line instal
 | Package | Description |
 | --- | --- |
 | [`hapsign`](https://github.com/guantw/HapSign) | Auto debug-signing and installation of HarmonyOS HAP packages. |
+| [`pake-twitter`](https://github.com/tw93/Pake) | A lightweight X (Twitter) desktop client built with Pake. |
 | [`raven`](https://github.com/mjishnu/Raven) | A free, open-source alternative Microsoft Store client for Windows. |
 | [`vda-off`](https://github.com/objnf-dev/software-bucket/blob/master/scripts/vda-off.ps1) | Disable GameViewer, MuMu, and Oray virtual display adapters. |
 

@@ -1,0 +1,26 @@
+{
+    "version": "3.21.0",
+    "description": "A lightweight X (Twitter) desktop client built with Pake",
+    "homepage": "https://github.com/tw93/Pake",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tw93/Pake/releases/download/V3.21.0/Twitter_x64.msi",
+            "hash": "c44e8f4c2aa0c9fd965bb6372227476b109656c72cbebd4f7dfd80c47ad54912"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\Twitter\\pake-twitter.exe",
+            "X (Pake)"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tw93/Pake/releases/download/V$version/Twitter_x64.msi"
+            }
+        }
+    }
+}
