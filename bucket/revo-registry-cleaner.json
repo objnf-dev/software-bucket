@@ -1,0 +1,23 @@
+{
+    "version": "2.2.5",
+    "description": "Clean, tune, and optimize the Windows Registry safely",
+    "homepage": "https://www.revouninstaller.com/products/revo-registry-cleaner-free/",
+    "license": "Freeware",
+    "url": "https://revoregcleaner.b-cdn.net/rrc225/RRC_FreePortable.zip",
+    "hash": "134066023855dadd5c75f8d6025eae0e4904a3a0989197bc0727f96aa25f4dc2",
+    "extract_dir": "Revo Registry Cleaner Portable",
+    "bin": "RRCcmd.exe",
+    "shortcuts": [
+        [
+            "Revo Registry Cleaner.exe",
+            "Revo Registry Cleaner Free"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.revouninstaller.com/products/revo-registry-cleaner-free/",
+        "regex": "Latest Version:\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://revoregcleaner.b-cdn.net/rrc$cleanVersion/RRC_FreePortable.zip"
+    }
+}
