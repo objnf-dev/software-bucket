@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "description": "A lightweight Genshin Impact Cloud desktop client built with Pake",
+    "homepage": "https://github.com/objnf-dev/software-bucket-bin",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/a27a093028327f61b90b1c3909e7590f26021138/pake-genshincloud/pake-genshincloud.msi",
+            "hash": "9a7c0b283677a6f33d36c28961897100c8b8b7b9a96d1370738dbb7e467f5650"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\pake-genshincloud\\pake-pakegenshincloud.exe",
+            "Genshin Impact Cloud (Pake)"
+        ]
+    ]
+}

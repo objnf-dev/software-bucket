@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "description": "A lightweight Google Translate desktop client built with Pake",
+    "homepage": "https://github.com/objnf-dev/software-bucket-bin",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/a27a093028327f61b90b1c3909e7590f26021138/pake-gtranslate/pake-gtranslate.msi",
+            "hash": "77b2fdf1eeff7d544aa9a881272d841a07eeae6644f9450c43199044e557e6e3"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\pake-gtranslate\\pake-pakegtranslate.exe",
+            "Google Translate (Pake)"
+        ]
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "description": "A lightweight Honkai: Star Rail Cloud desktop client built with Pake",
+    "homepage": "https://github.com/objnf-dev/software-bucket-bin",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/a27a093028327f61b90b1c3909e7590f26021138/pake-hsrcloud/pake-hsrcloud.msi",
+            "hash": "c80402f7905406c0438a30559f7f84056755b134bde77f3505c3a7aae6847a33"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\pake-hsrcloud\\pake-pakehsrcloud.exe",
+            "Honkai: Star Rail Cloud (Pake)"
+        ]
+    ]
+}
