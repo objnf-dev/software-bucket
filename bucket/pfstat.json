@@ -1,0 +1,27 @@
+{
+    "version": "1.0",
+    "description": "View Windows pagefile usage in a Linux swap-style table",
+    "homepage": "https://github.com/objnf-dev/windows-pagefile-viewer",
+    "license": "MIT",
+    "notes": "If access is denied, run pfstat as administrator.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/objnf-dev/windows-pagefile-viewer/releases/download/1.0/pagefile_viewer.exe#/pfstat.exe",
+            "hash": "d8e5f983ed5555c42dfa697bc34a2264c8cd463301b6b8b33a2e35ab0042e82d"
+        }
+    },
+    "shortcuts": [
+        [
+            "pfstat.exe",
+            "pfstat"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/objnf-dev/windows-pagefile-viewer/releases/download/$version/pagefile_viewer.exe#/pfstat.exe"
+            }
+        }
+    }
+}

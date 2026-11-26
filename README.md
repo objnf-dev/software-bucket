@@ -12,6 +12,7 @@ A personal bucket for [Scoop](https://scoop.sh), the Windows command-line instal
 | [`pake-gemini`](https://github.com/tw93/Pake) | A lightweight Gemini desktop client built with Pake. |
 | [`pake-twitter`](https://github.com/tw93/Pake) | A lightweight X (Twitter) desktop client built with Pake. |
 | [`pake-xiaohongshu`](https://github.com/tw93/Pake) | A lightweight XiaoHongShu desktop client built with Pake. |
+| [`pfstat`](https://github.com/objnf-dev/windows-pagefile-viewer) | View Windows pagefile usage in a Linux swap-style table. |
 | [`raven`](https://github.com/mjishnu/Raven) | A free, open-source alternative Microsoft Store client for Windows. |
 | [`revo-registry-cleaner`](https://www.revouninstaller.com/products/revo-registry-cleaner-free/) | Clean, tune, and optimize the Windows Registry safely. |
 | [`vda-off`](https://github.com/objnf-dev/software-bucket/blob/master/scripts/vda-off.ps1) | Disable GameViewer, MuMu, and Oray virtual display adapters. |
