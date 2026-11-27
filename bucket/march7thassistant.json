@@ -21,7 +21,23 @@
             "March7th Assistant"
         ]
     ],
-    "persist": "userdata",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\config.yaml\")) { Copy-Item \"$dir\\assets\\config\\config.example.yaml\" \"$dir\\config.yaml\" }",
+        "foreach ($file in 'warp.json', 'characters.json') {",
+        "    if (-not (Test-Path \"$persist_dir\\$file\")) { New-Item -ItemType File -Path \"$dir\\$file\" | Out-Null }",
+        "}"
+    ],
+    "persist": [
+        "config.yaml",
+        "config",
+        "settings",
+        "logs",
+        "screenshots",
+        "warp.json",
+        "characters.json",
+        "3rdparty/WebBrowser/UserProfile",
+        "userdata"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
