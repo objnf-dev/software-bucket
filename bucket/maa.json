@@ -1,0 +1,50 @@
+{
+    "version": "6.23.2",
+    "description": "A one-click tool for the daily tasks of Arknights, supporting all clients",
+    "homepage": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
+    "license": "AGPL-3.0-only",
+    "depends": "extras/vcredist2022",
+    "notes": [
+        "Requires Windows 10 or 11.",
+        "Use 'scoop update maa' instead of the built-in updater."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v6.23.2/MAA-v6.23.2-win-x64.zip",
+            "hash": "a368dea09acca7c4ea2ad85cab0ba7c196c0b15b4bf2f5e023cf1552e42df6b3"
+        },
+        "arm64": {
+            "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v6.23.2/MAA-v6.23.2-win-arm64.zip",
+            "hash": "2ccb590ac5843eadffc17bcdaac14b535b83047770af8e58d7b93ffb2d81d1d4"
+        }
+    },
+    "bin": [
+        [
+            "MAA.exe",
+            "MAAAssistantArknights"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "MAA.exe",
+            "Maa Assistant Arknights"
+        ]
+    ],
+    "persist": [
+        "cache",
+        "config",
+        "debug",
+        "data"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-arm64.zip"
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@
 | [`batteryhub`](https://github.com/ferloom/Wireless-Device-Battery-Monitor) | 在 Windows 任务栏显示无线设备的电量。 |
 | [`easylpac`](https://github.com/creamlike1024/EasyLPAC) | 用于管理 eUICC 上 eSIM 的图形界面 LPA。 |
 | [`hapsign`](https://github.com/guantw/HapSign) | 自动为 HarmonyOS HAP 包进行调试签名和安装。 |
+| [`maa`](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 支持所有客户端的《明日方舟》日常任务一键自动化工具。 |
 | [`march7thassistant`](https://github.com/moesnow/March7thAssistant) | 《崩坏：星穹铁道》开源自动化助手。 |
 | [`pake-excalidraw`](https://github.com/tw93/Pake) | 基于 Pake 构建的轻量级 Excalidraw 桌面客户端。 |
 | [`pake-genshincloud`](https://github.com/objnf-dev/software-bucket-bin) | 基于 Pake 构建的轻量级云·原神桌面客户端。 |
