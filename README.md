@@ -9,7 +9,6 @@ A personal bucket for [Scoop](https://scoop.sh), the Windows command-line instal
 | [`batteryhub`](https://github.com/ferloom/Wireless-Device-Battery-Monitor) | Show wireless device battery levels on the Windows taskbar. |
 | [`hapsign`](https://github.com/guantw/HapSign) | Auto debug-signing and installation of HarmonyOS HAP packages. |
 | [`pake-excalidraw`](https://github.com/tw93/Pake) | A lightweight Excalidraw desktop client built with Pake. |
-| [`pake-gemini`](https://github.com/tw93/Pake) | A lightweight Gemini desktop client built with Pake. |
 | [`pake-genshincloud`](https://github.com/objnf-dev/software-bucket-bin) | A lightweight Genshin Impact Cloud desktop client built with Pake. |
 | [`pake-gtranslate`](https://github.com/objnf-dev/software-bucket-bin) | A lightweight Google Translate desktop client built with Pake. |
 | [`pake-hsrcloud`](https://github.com/objnf-dev/software-bucket-bin) | A lightweight Honkai: Star Rail Cloud desktop client built with Pake. |
