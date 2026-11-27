@@ -7,6 +7,7 @@ A personal bucket for [Scoop](https://scoop.sh), the Windows command-line instal
 | Package | Description |
 | --- | --- |
 | [`batteryhub`](https://github.com/ferloom/Wireless-Device-Battery-Monitor) | Show wireless device battery levels on the Windows taskbar. |
+| [`easylpac`](https://github.com/creamlike1024/EasyLPAC) | A GUI LPA for managing eSIMs on removable eUICCs. |
 | [`hapsign`](https://github.com/guantw/HapSign) | Auto debug-signing and installation of HarmonyOS HAP packages. |
 | [`pake-excalidraw`](https://github.com/tw93/Pake) | A lightweight Excalidraw desktop client built with Pake. |
 | [`pake-genshincloud`](https://github.com/objnf-dev/software-bucket-bin) | A lightweight Genshin Impact Cloud desktop client built with Pake. |
