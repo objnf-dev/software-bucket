@@ -5,8 +5,8 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/a27a093028327f61b90b1c3909e7590f26021138/pake-genshincloud/pake-genshincloud.msi",
-            "hash": "9a7c0b283677a6f33d36c28961897100c8b8b7b9a96d1370738dbb7e467f5650"
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/fd3a032286c4251db20f9934b69d10607bafacda/pake-genshincloud/pake-genshincloud.msi",
+            "hash": "fd146ddd5f7e9e08b33f74ad9d4bff190303a333cd3e010b610b23618d29c362"
         }
     },
     "shortcuts": [
