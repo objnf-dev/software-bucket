@@ -1,0 +1,33 @@
+{
+    "version": "2026.11.24",
+    "description": "An open-source automation assistant for Honkai: Star Rail",
+    "homepage": "https://github.com/moesnow/March7thAssistant",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "Use 'scoop update march7thassistant' instead of the built-in updater.",
+        "Local game automation requires the Simplified Chinese PC client running at 1920x1080. Running tasks may request administrator privileges."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/moesnow/March7thAssistant/releases/download/v2026.11.24/March7thAssistant_full.7z",
+            "hash": "67e355a7f04b8f38d253cf6fe1705f1c4618d14b83120f40c4295e4945540308",
+            "extract_dir": "March7thAssistant_full"
+        }
+    },
+    "bin": "m7a.exe",
+    "shortcuts": [
+        [
+            "March7th Launcher.exe",
+            "March7th Assistant"
+        ]
+    ],
+    "persist": "userdata",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/moesnow/March7thAssistant/releases/download/v$version/March7thAssistant_full.7z"
+            }
+        }
+    }
+}
