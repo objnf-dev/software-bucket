@@ -5,14 +5,14 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/a27a093028327f61b90b1c3909e7590f26021138/pake-hsrcloud/pake-hsrcloud.msi",
-            "hash": "c80402f7905406c0438a30559f7f84056755b134bde77f3505c3a7aae6847a33"
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/23bc0a224c60a6c0b1397ba4fd2a53149ff87b2b/pake-hsrcloud/pake-hsrcloud.msi",
+            "hash": "aeb52fc2fe6bc3680664119851960085d973e1204bf4216f55a95dd170287bf6"
         }
     },
     "shortcuts": [
         [
             "PFiles\\pake-hsrcloud\\pake-pakehsrcloud.exe",
-            "Honkai: Star Rail Cloud (Pake)"
+            "Honkai Star Rail Cloud (Pake)"
         ]
     ]
 }
