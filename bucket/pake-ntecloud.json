@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "description": "A lightweight NTE Cloud desktop client built with Pake",
+    "homepage": "https://github.com/objnf-dev/software-bucket-bin",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/objnf-dev/software-bucket-bin/4a0db387ce979a3862a4b75b69740357ee428f96/pake-ntecloud/NTECloud.msi",
+            "hash": "129718d38b47fca489d864111979f57584d5eefbe6e2332d6f436240183f75bc"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles\\NTECloud\\pake-ntecloud.exe",
+            "NTE Cloud (Pake)"
+        ]
+    ]
+}
