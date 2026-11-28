@@ -1,5 +1,5 @@
 {
-    "version": "1.9.1",
+    "version": "1.9.2",
     "description": "Show wireless device battery levels on the Windows taskbar",
     "homepage": "https://github.com/ferloom/Wireless-Device-Battery-Monitor",
     "license": "GPL-3.0-only",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ferloom/Wireless-Device-Battery-Monitor/releases/download/v1.9.1/BatteryHub-Taskbar-Setup-v1.9.1.exe",
-            "hash": "442f1b986b61038820cc69666d40595b20aeafb49c4a3a84929824cfc401572a"
+            "url": "https://github.com/ferloom/Wireless-Device-Battery-Monitor/releases/download/v1.9.2/BatteryHub-Taskbar-Setup-v1.9.2.exe",
+            "hash": "7252cd6edaaa8aaffab20cc897b3eb9bfdf21736397feac3d096572bb2d15a65"
         }
     },
     "installer": {
